@@ -3,6 +3,7 @@ rvm:
   - 1.8.7-p374
   - 1.9.3
   - 2.0.0
+  - 2.3.0
 gemfile: Gemfile
 after_install: gem list
 script: bundle exec rake spec
